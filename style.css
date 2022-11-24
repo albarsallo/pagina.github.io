@@ -1,0 +1,93 @@
+body{
+    font-size: 62.5%;
+    max-width: 1024px;
+    margin: 0 auto; 
+    background-color: #06283D; 
+    background-image: linear-gradient(to top,#06283D, #1363DF);
+}
+main{
+    padding-bottom: 100px;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: start;
+    font-size: 20px;
+
+    padding-bottom: 200px;
+}
+footer nav{
+    font-size: 1.5rem;
+
+}
+footer nav li{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    
+    text-align: center;
+}
+img#portada{
+    width: 100%;
+}
+img#creador{
+    width: 80%;
+    height: 40%;
+}
+img#beneficios{
+    width: 80%;
+    height: 40%;
+}
+img#funcionamiento{
+    width: 80%;
+    height: 40%;
+}
+header h1{
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+}
+a:visited { 
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+   }
+header nav{
+    font-size: 2rem;
+}
+header nav ul{
+
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    display: inline;
+    padding: 0.5rem 0.5rem;
+    
+}
+h2{
+    font-size: 50px;
+    color: #ffffff;
+
+}
+h3{
+    font-size: 50px;
+    color: #ffffff;
+
+
+}
+h4{
+    font-size: 50px;
+    color: #ffffff;
+
+
+}
+
+p{
+    font-size: 1rem;
+    color: #ffffff;
+}
