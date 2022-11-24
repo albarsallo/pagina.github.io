@@ -26,8 +26,6 @@ footer nav li{
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
-    color: rgb(255, 255, 255); 
-
 }
 header{
     
@@ -53,9 +51,12 @@ header h1{
     color: #ffffff;
     text-align: center;
 }
-a:visited { 
+a{ 
     text-decoration: none; 
     color: rgb(255, 255, 255); 
+   }
+   a:hover{
+    border-bottom: 2px solid #ffffff;
    }
 header nav{
     font-size: 2rem;
@@ -68,8 +69,7 @@ header nav ul{
 }
 header nav ul li{
     display: inline;
-    padding: 0.5rem 0.5rem;
-    color: rgb(255, 255, 255);     
+    padding: 0.5rem 0.5rem;   
 }
 h2{
     font-size: 50px;
